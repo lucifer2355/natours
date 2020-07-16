@@ -32,6 +32,7 @@
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
+  backface-visibility: hidden;
 }
 
 .heading-primary-main {
@@ -52,8 +53,7 @@
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 19px;
-  animation: moveInRight;
-  animation-duration: 1s;
+  animation: moveInRight 1s ease-out;
 }
 
 @keyframes moveInLeft {
@@ -73,17 +73,17 @@
 }
 
 @keyframes moveInRight {
-  100% {
+  0% {
     opacity: 0;
-    transform: translate(100px);
+    transform: translateX(100px);
   }
 
   80% {
-    transform: translateX(10px);
+    transform: translateX(-10px);
   }
 
-  0% {
+  100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translate(0);
   }
 }
