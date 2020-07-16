@@ -1,10 +1,16 @@
 import React from "react";
+import "../styles/header.css";
+import CenterText from "./CenterText";
 
 function Header() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <header className='header'>
+      <div className='logo-box'>
+        <img src='../images/logo-white.png' alt='logo' className='logo' />
+      </div>
+
+      <CenterText />
+    </header>
   );
 }
 
