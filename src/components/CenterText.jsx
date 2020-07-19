@@ -8,7 +8,7 @@ function CenterText() {
         <span className='heading-primary-sub'>is where life happen</span>
       </h1>
 
-      <a href='#' className='btn btn-white'>
+      <a href='#' className='btn btn-white btn-animated'>
         Discover our tours
       </a>
     </div>
