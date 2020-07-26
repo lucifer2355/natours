@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/header.css";
+import "../sass/header.scss";
 import CenterText from "./CenterText";
 
 function Header() {
