@@ -5,8 +5,12 @@ import CenterText from "./CenterText";
 function Header() {
   return (
     <header className='header'>
-      <div className='logo-box'>
-        <img src='../images/logo-white.png' alt='logo' className='logo' />
+      <div className='header__logo-box'>
+        <img
+          src='../images/logo-white.png'
+          alt='logo'
+          className='header__logo'
+        />
       </div>
 
       <CenterText />
