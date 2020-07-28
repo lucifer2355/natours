@@ -1,5 +1,4 @@
 import React from "react";
-import "../sass/main.scss";
 import CenterText from "./CenterText";
 
 function Header() {
