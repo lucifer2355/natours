@@ -28,9 +28,12 @@ function Section() {
             <p className='paragraph'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
               veritatis exercitationem placeat enim ad ipsum, sed dicta at
-              provident. Sint et quos quae officiis, nihil unde molestias
-              debitis maiores officia?
+              provident.
             </p>
+
+            <a href='#' className='btn-text'>
+              Learn more &rarr;
+            </a>
           </div>
           <div className='col-1-of-2'>Image</div>
         </div>
