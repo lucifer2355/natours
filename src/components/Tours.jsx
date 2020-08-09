@@ -1,6 +1,9 @@
 import React from "react";
 
 import TourInfoBox from "./TourInfoBox";
+import { TOURINFO1 } from "../data/tourInformatin";
+
+const tourInfo1 = TOURINFO1;
 
 function Tours() {
   return (
@@ -10,6 +13,15 @@ function Tours() {
       </div>
 
       <div className='row'>
+        <TourInfoBox
+          pictureClass='card__picture--1'
+          headingClass='card__heading-span--1'
+          cardHeading='The sea explorer'
+          backSideClass='card__side--back-1'
+          tourInfo={tourInfo1}
+          price={299}
+        />
+        <TourInfoBox />
         <TourInfoBox />
       </div>
     </section>
