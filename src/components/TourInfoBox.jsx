@@ -22,7 +22,13 @@ function TourInfoBox() {
           </div>
         </div>
         <div className='card__side card__side--back card__side--back-1'>
-          BACK
+          <div className='card__cta'>
+            <div className='card__price-box'>
+              <p className='card__price-only'>Only</p>
+              <p className='card__price-value'>$299</p>
+            </div>
+            <a href='#' className='btn btn--white'></a>
+          </div>
         </div>
       </div>
     </div>
