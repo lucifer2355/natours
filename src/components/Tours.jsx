@@ -1,9 +1,11 @@
 import React from "react";
 
 import TourInfoBox from "./TourInfoBox";
-import { TOURINFO1 } from "../data/tourInformatin";
+import { TOURINFO1, TOURINFO2, TOURINFO3 } from "../data/tourInformatin";
 
 const tourInfo1 = TOURINFO1;
+const tourInfo2 = TOURINFO2;
+const tourInfo3 = TOURINFO3;
 
 function Tours() {
   return (
@@ -21,8 +23,22 @@ function Tours() {
           tourInfo={tourInfo1}
           price={299}
         />
-        <TourInfoBox />
-        <TourInfoBox />
+        <TourInfoBox
+          pictureClass='card__picture--2'
+          headingClass='card__heading-span--2'
+          cardHeading='The forest hiker'
+          backSideClass='card__side--back-2'
+          tourInfo={tourInfo2}
+          price={497}
+        />
+        <TourInfoBox
+          pictureClass='card__picture--3'
+          headingClass='card__heading-span--3'
+          cardHeading='The snow adventure'
+          backSideClass='card__side--back-3'
+          tourInfo={tourInfo3}
+          price={897}
+        />
       </div>
     </section>
   );
