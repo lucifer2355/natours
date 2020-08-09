@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Section from "./components/Section";
 import Features from "./components/Features";
 import Tours from "./components/Tours";
+import Stories from "./components/Stories";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Section />
         <Features />
         <Tours />
+        <Stories />
       </main>
     </div>
   );
