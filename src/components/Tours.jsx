@@ -40,6 +40,12 @@ function Tours() {
           price={897}
         />
       </div>
+
+      <div className='u-center-text u-margin-top-huge'>
+        <a href='#' className='btn btn--green'>
+          Discover all tours
+        </a>
+      </div>
     </section>
   );
 }
