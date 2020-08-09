@@ -27,7 +27,9 @@ function TourInfoBox() {
               <p className='card__price-only'>Only</p>
               <p className='card__price-value'>$299</p>
             </div>
-            <a href='#' className='btn btn--white'></a>
+            <a href='#' className='btn btn--white'>
+              Book Now!
+            </a>
           </div>
         </div>
       </div>
