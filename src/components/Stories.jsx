@@ -5,6 +5,13 @@ import StoryBox from "./StoryBox";
 function Stories() {
   return (
     <section className='section-stories'>
+      <div className='bg-video'>
+        <video className='bg-video__content' autoPlay muted loop>
+          <source src='/images/video.mp4' type='video/mp4' />
+          <source src='/images/video.webm' type='video/webm' />
+          Your browser is not supported!
+        </video>
+      </div>
       <div className='u-center-text u-margin-bottom-big'>
         <h2 className='heading-secondary'>We make people genuinely happy</h2>
       </div>
@@ -31,7 +38,7 @@ function Stories() {
       />
 
       <div className='u-center-text u-margin-top-huge'>
-        <a href='' className='btn-text'>
+        <a href='#' className='btn-text'>
           Read all stories &rarr;
         </a>
       </div>
