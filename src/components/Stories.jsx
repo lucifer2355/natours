@@ -1,5 +1,7 @@
 import React from "react";
 
+import StoryBox from "./StoryBox";
+
 function Stories() {
   return (
     <section className='section-stories'>
@@ -7,28 +9,31 @@ function Stories() {
         <h2 className='heading-secondary'>We make people genuinely happy</h2>
       </div>
 
-      <div className='row'>
-        <div className='story'>
-          <figure className='story__shape'>
-            <img
-              src='/images/nat-8.jpg'
-              alt='Personon a tour'
-              className='story__img'
-            />
-          </figure>
-          <div className='story__text'>
-            <h3 className='heading-tertiary u-margin-bottom-small'>
-              I had the best week ever with my family
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              veritatis exercitationem placeat enim ad ipsum, sed dicta at
-              provident. exercitationem placeat enim ad ipsum, sed dicta at
-              provident dolor sit amet consectetur adipisicing elit Minus
-              veritatis exercitationem placeat.
-            </p>
-          </div>
-        </div>
+      <StoryBox
+        image={"/images/nat-8.jpg"}
+        name='Mary Smith'
+        title='I had the best week ever with my family'
+        description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+        veritatis exercitationem placeat enim ad ipsum, sed dicta at
+        provident. exercitationem placeat enim ad ipsum, sed dicta at
+        provident dolor sit amet consectetur adipisicing elit Minus
+        veritatis exercitationem placeat.'
+      />
+      <StoryBox
+        image={"/images/nat-9.jpg"}
+        name='Jack Wilsone'
+        title='Wow! my life is completely different now'
+        description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+        veritatis exercitationem placeat enim ad ipsum, sed dicta at
+        provident. exercitationem placeat enim ad ipsum, sed dicta at
+        provident dolor sit amet consectetur adipisicing elit Minus
+        veritatis exercitationem placeat.'
+      />
+
+      <div className='u-center-text u-margin-top-huge'>
+        <a href='' className='btn-text'>
+          Read all stories &rarr;
+        </a>
       </div>
     </section>
   );
