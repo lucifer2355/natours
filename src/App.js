@@ -5,6 +5,7 @@ import Section from "./components/Section";
 import Features from "./components/Features";
 import Tours from "./components/Tours";
 import Stories from "./components/Stories";
+import BookingSection from "./components/BookingSection";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Features />
         <Tours />
         <Stories />
+        <BookingSection />
       </main>
     </div>
   );
