@@ -9,10 +9,8 @@ const Form = () => {
         <h2 className='heading-secondary'>Start booking now</h2>
       </div>
 
-      <div className='form__group'>
-        <FormInput name='Full Name' type='text' />
-        <FormInput name='Email Address' type='email' />
-      </div>
+      <FormInput name='Full Name' type='text' />
+      <FormInput name='Email Address' type='email' />
     </form>
   );
 };

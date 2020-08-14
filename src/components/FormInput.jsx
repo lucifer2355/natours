@@ -2,7 +2,7 @@ import React from "react";
 
 const FormInput = ({ name, type }) => {
   return (
-    <>
+    <div className='form__group'>
       <input
         type={type}
         className='form__input'
@@ -13,7 +13,7 @@ const FormInput = ({ name, type }) => {
       <label htmlFor={name} className='form__label'>
         {name}
       </label>
-    </>
+    </div>
   );
 };
 
