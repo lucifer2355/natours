@@ -13,8 +13,10 @@ const Form = () => {
       <FormInput name='Full Name' type='text' />
       <FormInput name='Email Address' type='email' />
 
-      <FormRadioBtn id='small' label='Small tour group' />
-      <FormRadioBtn id='large' label='Large tour group' />
+      <div className='form__group'>
+        <FormRadioBtn id='small' label='Small tour group' />
+        <FormRadioBtn id='large' label='Large tour group' />
+      </div>
     </form>
   );
 };
