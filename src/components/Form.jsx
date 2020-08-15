@@ -13,9 +13,13 @@ const Form = () => {
       <FormInput name='Full Name' type='text' />
       <FormInput name='Email Address' type='email' />
 
-      <div className='form__group'>
+      <div className='form__group u-margin-bottom-medium'>
         <FormRadioBtn id='small' label='Small tour group' />
         <FormRadioBtn id='large' label='Large tour group' />
+      </div>
+
+      <div className='form__group'>
+        <button className='btn btn--green'>Next Step &rarr;</button>
       </div>
     </form>
   );
