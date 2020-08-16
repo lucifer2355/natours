@@ -45,11 +45,11 @@ const Footer = () => {
         </div>
         <div className='col-1-of-2'>
           <p className='footer__copyright'>
-            Built by
+            Built by{" "}
             <a href='https://dhruvilgajjar.engineer/' className='footer__link'>
               Dhruvil Gajjar
-            </a>
-            for learn
+            </a>{" "}
+            for learn{" "}
             <a href='#' className='footer__link'>
               Advance CSS & Sass
             </a>
