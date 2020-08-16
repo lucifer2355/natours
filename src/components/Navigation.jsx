@@ -18,27 +18,27 @@ const Navigation = () => {
         <ul className='navigation__list'>
           <li className='navigation__item'>
             <a href='#' className='navigation__link'>
-              About Natous
+              <span>01</span> About Natous
             </a>
           </li>
           <li className='navigation__item'>
             <a href='#' className='navigation__link'>
-              Your Benifits
+              <span>02</span> Your Benifits
             </a>
           </li>
           <li className='navigation__item'>
             <a href='#' className='navigation__link'>
-              Popular Tours
+              <span>03</span> Popular Tours
             </a>
           </li>
           <li className='navigation__item'>
             <a href='#' className='navigation__link'>
-              Stories
+              <span>04</span> Stories
             </a>
           </li>
           <li className='navigation__item'>
             <a href='#' className='navigation__link'>
-              Book Now
+              <span>05</span> Book Now
             </a>
           </li>
         </ul>
