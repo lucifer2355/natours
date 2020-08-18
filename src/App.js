@@ -9,6 +9,7 @@ import Tours from "./components/Tours";
 import Stories from "./components/Stories";
 import BookingSection from "./components/BookingSection";
 import Footer from "./components/Footer";
+import Popup from "./components/Popup";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Stories />
         <BookingSection />
         <Footer />
+        <Popup />
       </main>
     </div>
   );
