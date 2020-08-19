@@ -2,13 +2,16 @@ import React from "react";
 
 const Popup = () => {
   return (
-    <div className='popup'>
+    <div className='popup' id='popup'>
       <div className='popup__content'>
         <div className='popup__left'>
           <img src='/images/nat-8.jpg' alt='Tour' className='popup__img' />
           <img src='/images/nat-9.jpg' alt='Tour' className='popup__img' />
         </div>
         <div className='popup__right'>
+          <a href='#section-tours' className='popup__close'>
+            &times;
+          </a>
           <h2 className='heading-secondary u-margin-bottom-small'>
             Start booking now
           </h2>
