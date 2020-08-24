@@ -189,6 +189,7 @@
     &__side {
       height: auto;
       position: relative;
+      box-shadow: none;
 
       &--back {
         transform: rotateY(0);
