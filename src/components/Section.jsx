@@ -37,6 +37,14 @@ function Section() {
         <div className='col-1-of-2'>
           <div className='composition'>
             <img
+              srcSet='../images/nat-1.jpg 300w, ../images/nat-1-large.jpg 1000w'
+              sizes='(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px'
+              alt='Photo 1'
+              className='composition__photo composition__photo--p1'
+              src='../images/nat-1-large.jpg'
+            />
+
+            <img
               src='../images/nat-1-large.jpg'
               alt='Photo 1'
               className='composition__photo composition__photo--p1'
