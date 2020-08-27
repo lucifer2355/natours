@@ -38,21 +38,21 @@ function Section() {
           <div className='composition'>
             <img
               srcSet='../images/nat-1.jpg 300w, ../images/nat-1-large.jpg 1000w'
-              sizes='(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px'
+              sizes='(max-width: 900px) 20vw, (max-width: 37.5em) 30vw, 300px'
               alt='Photo 1'
               className='composition__photo composition__photo--p1'
               src='../images/nat-1-large.jpg'
             />
             <img
               srcSet='../images/nat-2.jpg 300w, ../images/nat-2-large.jpg 1000w'
-              sizes='(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px'
+              sizes='(max-width: 900px) 20vw, (max-width: 37.5em) 30vw, 300px'
               alt='Photo 1'
               className='composition__photo composition__photo--p2'
               src='../images/nat-2-large.jpg'
             />
             <img
               srcSet='../images/nat-3.jpg 300w, ../images/nat-3-large.jpg 1000w'
-              sizes='(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px'
+              sizes='(max-width: 900px) 20vw, (max-width: 37.5em) 30vw, 300px'
               alt='Photo 1'
               className='composition__photo composition__photo--p3'
               src='../images/nat-3-large.jpg'
